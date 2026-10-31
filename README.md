@@ -7,7 +7,6 @@ Site tĩnh thuần HTML/CSS/JS, không cần build.
 | File | Nội dung |
 | --- | --- |
 | `index.html` | Trang chủ: giới thiệu, danh sách app, liên hệ |
-| `privacy-policy.html` | Privacy Policy (dùng cho Google Play / App Store) |
 | `terms.html` | Terms of Use |
 | `404.html` | Trang lỗi 404 |
 | `app-ads.txt` | Danh sách ad sellers (AdMob, Start.io, ...) |

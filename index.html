@@ -15,7 +15,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/theme.js"></script>
 </head>
@@ -32,8 +32,7 @@
       <nav id="nav-menu" class="nav-menu">
         <a href="#apps">Apps</a>
         <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="privacy-policy.html">Privacy</a>
+        <a class="nav-cta" href="#contact">Contact</a>
         <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
           <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor"/></svg>
@@ -47,8 +46,12 @@
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-text">
-          <p class="eyebrow">Android &bull; iOS</p>
-          <h1>Simple, useful apps<br><span class="gradient">for everyday life.</span></h1>
+          <ul class="stats">
+            <li class="chip"><strong>8</strong> apps published</li>
+            <li class="chip chip-leaf"><strong>250K+</strong> downloads</li>
+            <li class="chip chip-sky"><strong>Android</strong> &amp; iOS</li>
+          </ul>
+          <h1>Simple, useful apps<br><span class="highlight">for everyday life.</span></h1>
           <p class="lead">
             HaDoSolution is an independent mobile developer from Vietnam. We build
             lightweight, offline-first apps for music, culture, learning and games
@@ -58,11 +61,6 @@
             <a class="btn btn-primary" href="#apps">Explore our apps</a>
             <a class="btn btn-ghost" href="#contact">Get in touch</a>
           </div>
-          <dl class="stats">
-            <div><dt>8</dt><dd>apps published</dd></div>
-            <div><dt>250K+</dt><dd>downloads</dd></div>
-            <div><dt>2</dt><dd>platforms</dd></div>
-          </dl>
         </div>
         <div class="hero-visual" aria-hidden="true">
           <div class="phone">
@@ -109,7 +107,7 @@
             <img class="app-icon" src="assets/img/apps/xiangqi.webp" alt="CrabXiangqi - Xiangqi Offline icon" width="72" height="72" loading="lazy">
             <h3>CrabXiangqi - Xiangqi Offline</h3>
             <p>Xiangqi (Chinese chess) that plays fully offline: no login, no account. Play an AI with 5 levels that adapts to your games, and learn with built-in lessons.</p>
-            <ul class="tags"><li>Board game</li><li>New</li></ul>
+            <ul class="tags"><li class="chip chip-rose">Board game</li><li class="chip chip-lime">New</li></ul>
             <div class="store-links">
               <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hadoso.xiangqi" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="currentColor" opacity=".9"/><path d="M14 12l3.5-3.3L20.5 10.5c1 .6 1 2.4 0 3L17.5 15.3z" fill="currentColor" opacity=".6"/></svg>
@@ -126,7 +124,7 @@
             <img class="app-icon" src="assets/img/apps/loibaihat.webp" alt="Lời Bài Hát Offline: Nhạc Việt icon" width="72" height="72" loading="lazy">
             <h3>Lời Bài Hát Offline: Nhạc Việt</h3>
             <p>A pocket songbook with over 16,700 Vietnamese and international song lyrics. Download once and read anytime, no internet needed.</p>
-            <ul class="tags"><li>Entertainment</li><li>100K+ downloads</li></ul>
+            <ul class="tags"><li class="chip chip-sand">Entertainment</li><li class="chip">100K+ downloads</li></ul>
             <div class="store-links">
               <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hadoso.loibaihat" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="currentColor" opacity=".9"/><path d="M14 12l3.5-3.3L20.5 10.5c1 .6 1 2.4 0 3L17.5 15.3z" fill="currentColor" opacity=".6"/></svg>
@@ -139,7 +137,7 @@
             <img class="app-icon" src="assets/img/apps/loivongco.webp" alt="Lời Vọng Cổ - Ca Cổ Cải Lương icon" width="72" height="72" loading="lazy">
             <h3>Lời Vọng Cổ - Ca Cổ Cải Lương</h3>
             <p>Over 1,170 lyrics of vọng cổ, cải lương excerpts and traditional Vietnamese folk songs, available offline.</p>
-            <ul class="tags"><li>Entertainment</li><li>100K+ downloads</li></ul>
+            <ul class="tags"><li class="chip chip-sand">Entertainment</li><li class="chip">100K+ downloads</li></ul>
             <div class="store-links">
               <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hadoso.android.lvc" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="currentColor" opacity=".9"/><path d="M14 12l3.5-3.3L20.5 10.5c1 .6 1 2.4 0 3L17.5 15.3z" fill="currentColor" opacity=".6"/></svg>
@@ -152,7 +150,7 @@
             <img class="app-icon" src="assets/img/apps/dancataitu.webp" alt="Đờn ca tài tử icon" width="72" height="72" loading="lazy">
             <h3>Đờn ca tài tử</h3>
             <p>Scores of over 300 traditional Southern Vietnamese music pieces, with 127 recordings to listen and learn from.</p>
-            <ul class="tags"><li>Entertainment</li><li>50K+ downloads</li></ul>
+            <ul class="tags"><li class="chip chip-sand">Entertainment</li><li class="chip">50K+ downloads</li></ul>
             <div class="store-links">
               <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hadoso.dancataitu" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="currentColor" opacity=".9"/><path d="M14 12l3.5-3.3L20.5 10.5c1 .6 1 2.4 0 3L17.5 15.3z" fill="currentColor" opacity=".6"/></svg>
@@ -165,7 +163,7 @@
             <img class="app-icon" src="assets/img/apps/sachnoi.webp" alt="Sách Nói Hay - Audiobook Việt icon" width="72" height="72" loading="lazy">
             <h3>Sách Nói Hay - Audiobook Việt</h3>
             <p>A carefully curated library of Vietnamese audiobooks on personal growth, business and life skills, with clear narration.</p>
-            <ul class="tags"><li>Education</li><li>10K+ downloads</li></ul>
+            <ul class="tags"><li class="chip chip-sky">Education</li><li class="chip">10K+ downloads</li></ul>
             <div class="store-links">
               <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hadoso.sachnoi" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="currentColor" opacity=".9"/><path d="M14 12l3.5-3.3L20.5 10.5c1 .6 1 2.4 0 3L17.5 15.3z" fill="currentColor" opacity=".6"/></svg>
@@ -178,7 +176,7 @@
             <img class="app-icon" src="assets/img/apps/cadao.webp" alt="Ca dao - Tục ngữ Việt Nam icon" width="72" height="72" loading="lazy">
             <h3>Ca dao - Tục ngữ Việt Nam</h3>
             <p>Over 17,000 Vietnamese folk verses and proverbs in one compact app. Read a new one every day, even offline.</p>
-            <ul class="tags"><li>Entertainment</li><li>10K+ downloads</li></ul>
+            <ul class="tags"><li class="chip chip-sand">Entertainment</li><li class="chip">10K+ downloads</li></ul>
             <div class="store-links">
               <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hadoso.cadao" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="currentColor" opacity=".9"/><path d="M14 12l3.5-3.3L20.5 10.5c1 .6 1 2.4 0 3L17.5 15.3z" fill="currentColor" opacity=".6"/></svg>
@@ -191,7 +189,7 @@
             <img class="app-icon" src="assets/img/apps/musictimer.webp" alt="Music Timer: Sleep Timer icon" width="72" height="72" loading="lazy">
             <h3>Music Timer: Sleep Timer</h3>
             <p>Fall asleep to music without it playing until morning. Pick a time and your music gently fades out and stops. Works with almost any player.</p>
-            <ul class="tags"><li>Tools</li><li>1K+ downloads</li></ul>
+            <ul class="tags"><li class="chip chip-leaf">Tools</li><li class="chip">1K+ downloads</li></ul>
             <div class="store-links">
               <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hadoso.musictimer" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="currentColor" opacity=".9"/><path d="M14 12l3.5-3.3L20.5 10.5c1 .6 1 2.4 0 3L17.5 15.3z" fill="currentColor" opacity=".6"/></svg>
@@ -204,7 +202,7 @@
             <img class="app-icon" src="assets/img/apps/storyenglish.webp" alt="ESL English: Stories & Audio icon" width="72" height="72" loading="lazy">
             <h3>ESL English: Stories & Audio</h3>
             <p>Improve English reading and listening with 155 short everyday stories, each with its own audio recording.</p>
-            <ul class="tags"><li>Education</li><li>English learning</li></ul>
+            <ul class="tags"><li class="chip chip-sky">Education</li><li class="chip chip-sky">English learning</li></ul>
             <div class="store-links">
               <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.hadoso.android.storyenglish" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 2.5v19l10-9.5z" fill="currentColor" opacity=".9"/><path d="M14 12l3.5-3.3L20.5 10.5c1 .6 1 2.4 0 3L17.5 15.3z" fill="currentColor" opacity=".6"/></svg>
@@ -233,21 +231,21 @@
             <p>Apps that feel at home on each platform, following Material Design and Apple's Human Interface Guidelines.</p>
           </div>
           <div class="feature">
-            <div class="feature-icon">
+            <div class="feature-icon is-leaf">
               <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
             </div>
             <h3>Fast &amp; lightweight</h3>
             <p>Small download sizes, quick start-up and smooth performance, even on older devices.</p>
           </div>
           <div class="feature">
-            <div class="feature-icon">
+            <div class="feature-icon is-sky">
               <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
             <h3>Privacy first</h3>
-            <p>We collect as little data as possible and are transparent about it in our <a href="privacy-policy.html">privacy policy</a>.</p>
+            <p>We collect as little data as possible. Each app has its own privacy policy, linked from its store listing.</p>
           </div>
           <div class="feature">
-            <div class="feature-icon">
+            <div class="feature-icon is-sand">
               <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M21 4v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
             <h3>Continuously improved</h3>
@@ -280,7 +278,6 @@
     <div class="container footer-inner">
       <p>&copy; <span id="year">2026</span> HaDoSolution. All rights reserved.</p>
       <nav class="footer-links">
-        <a href="privacy-policy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Use</a>
         <a href="app-ads.txt">app-ads.txt</a>
       </nav>
